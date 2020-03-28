@@ -1,0 +1,481 @@
+@media (min-width: 1000px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .modal-dialog {
+        max-width: 900px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .modal-dialog {
+        max-width: 1000px;
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1300px;
+    }
+
+    .modal-dialog {
+        max-width: 1300px;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1500px;
+    }
+
+    .modal-dialog {
+        max-width: 1500px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .designModal .modal-dialog {
+        max-width: 500px;
+        margin-top: 70px;
+    }
+}
+body {
+    overflow-y: hidden;
+}
+.main_content {
+    margin-top: 30px;
+}
+
+#toolbox {
+    width: 1580px;
+    width: 94%;
+    background-color: rgb(220,220,220);
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0px 10px 9px 17px;
+    height: 100px;
+    overflow-y: hidden;
+}
+
+#workingBoard {
+    background-color: rgb(220,220,220);
+    /*width: 1580px;*/
+    width: 94%;
+    height: 235px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0px 10px 9px 17px;
+    border: 1px solid black;
+    overflow-y: hidden;
+}
+
+.plus {
+    float: right;
+    width: 35px;
+    height: 35px;
+    background-color: lightgray;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-right: 9px;
+    color: #666f75;
+    background-size: 35px 35px;
+}
+
+.plus img {
+    height: 35px;
+    width: 35px;
+}
+
+.first_icons, .first_iconsWK {
+    border: 1px solid black;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+}
+
+.nav li {
+    height: 16px;
+    border-right: 1px solid black;
+}
+
+.nav li a {
+    position: relative;
+    top: -8px;
+    padding: 0rem 1rem;
+}
+#icon_replace {
+    height: 20px;
+}
+
+.modal .modal-content {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+.modal-dialog {
+    width: 100% !important;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+#uploadBlock, #uploadBlock label {
+    background-color: green;
+}
+
+#btn_del, #btn_manage_del, #btn_design_del {
+    background-color: transparent;
+    color: red;
+}
+
+.button_group button {
+    font-size: 20px;
+    border: none;
+}
+
+.save_cancel button {
+    float: right;
+    color: white;
+}
+
+#btn_cancel, .btn_cancel_board {
+    background-color: transparent;
+}
+
+#btn_save, .btn_save_board, #btn_manage_save, #btn_design_save {
+    background-color: green;
+    margin-left: 15px;
+}
+
+/*.modal-body .container .row .col-md-4 .form-group{*/
+    /*padding-right: 20px;*/
+    /*margin-right: -20px;*/
+    /*border-right: 1px dashed white;*/
+/*}*/
+
+.border_div {
+    border-right: 1px dashed white;
+    padding-right: 25px;
+    margin-right: -25px;
+}
+
+#icon_controllers li {
+    border-right: 1px solid white;
+    padding-right: 15px;
+}
+
+#icon_delete {
+    color: red;
+    border-right: none !important;
+}
+
+.modal-body .plus {
+    float: left;
+}
+
+#toolbox span {
+    width: 35px;
+    height: 35px;
+}
+
+.workingCell {
+    width: 35px;
+    height: 35px;
+    background-color: #5a6268;
+    border: 1px solid black;
+}
+
+#icon_toolbox, #manage_icon_toolbox {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    max-height: 495px;
+    overflow-y: hidden;
+}
+.col_ManageBlock {
+    margin-left: 20px;
+}
+
+#uploadBlockGroupLabel, #manageUploadGroupLabel {
+    background-color: yellow;
+    float: right;
+    padding: 0px 5px;
+    /*top: 5px;*/
+}
+
+#uploadBlockGroupLabel span, #manageUploadGroupLabel span {
+    color: black;
+}
+/*#uploadBlockGroupLabel i {*/
+    /*height: 30px;*/
+    /*width: 30px;*/
+/*}*/
+/*for the custom radio button*/
+.typeChoice {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default radio button */
+.typeChoice input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 0%;
+}
+/* On mouse-over, add a grey background color */
+.typeChoice:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.typeChoice input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.typeChoice .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 0%;
+    background: white;
+}
+#form_addGroup {
+    display: inherit!important;
+}
+
+#div_canvas_grid {
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+#div_canvas {
+    position: relative;
+    max-height: 700px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#grid_toolbox {
+    position: fixed;
+    bottom: 40px;
+    left: 50px;
+    display: inline;
+}
+
+#zoom_grid_input {
+    width: 70px;
+    height: 26px;
+    background-color: lightgrey;
+    color: black!important;
+    border: none;
+}
+
+#zoom_grid_input option {
+    background-color: white;
+}
+
+#span_zoom {
+    position: relative;
+    background-color: lightgrey;
+    width: 25px!important;
+    height: 26px!important;
+    padding-top: 2px;
+    padding-left: 5px;
+    right: -5px;
+    top: 1px;
+}
+
+#btn_run {
+    margin-left: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#btn_export {
+    margin-left: 15px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.list-inline {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    right: 3%;
+    font-size: 0.9rem;
+}
+.list-inline a, .nav-item a {
+    color: black;
+}
+
+.nav .nav-item {
+    font-size: 1.2rem;
+}
+
+.nav {
+    position: relative;
+    top: -10px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+#groupController {
+    position: relative;
+    top: 50px;
+}
+
+#WKgroupController {
+    position: relative;
+    top: 0px;
+}
+
+#WKgroupController li {
+    height: 14px;
+}
+
+#WKgroupController li a {
+    position: relative;
+    top: -4px;
+}
+
+.arrowUp {
+    width: 20px;
+    height: 20px;
+    background-image: url("assets/img/arrowUp.PNG");
+    position: relative;
+    float: right;
+}
+.arrowDown {
+    width: 20px;
+    height: 20px;
+    background-image: url("assets/img/arrowDown.PNG");
+    position: relative;
+    float: right;
+}
+#arrowUp, #arrowUpWK {
+    margin-right: 3%;
+    right: -25px;
+    top: -45px;
+}
+
+#arrowDown, #arrowDownWK {
+    margin-right: 3%;
+    right: -25px;
+    top: -44px;
+}
+#arrowUpAddGroup, #arrowUpManageGroup {
+    margin-right: 15px;
+    left: 5px;
+    top: -55px;
+}
+#arrowDownAddGroup, #arrowDownManageGroup {
+    margin-right: 15px;
+    left: 5px;
+    top: -54px;
+}
+
+.verticalLine {
+    height: 20px;
+    border-right: 1px solid black;
+}
+#groupName_valid, #groupIcon_valid, #designName_valid, #designType_valid {
+    color: red;
+    display: none;
+}
+.header {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.modalRow .col-md-8{
+    padding-top: 30px;
+}
+.div_dashedLine {
+    position: relative;
+    /*top: -30px;*/
+    height: 30px;
+    border-top: 1px dashed white;
+}
+#preview_addGroupIcon, #preview_manageGroupIcon {
+    margin-bottom: 15px;
+    width: 50px;
+    height: 35px!important;
+}
+#preview_addGroupIcon img, #preview_manageGroupIcon img {
+    width: 35px;
+    height: 35px;
+}
+.addBlock, .manageAddBlock {
+    margin-bottom: 0px!important;
+}
+#deleteGroupModal .modal-content{
+    position: fixed;
+    top: 150px;
+    margin: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    color: black;
+    width: 400px;
+    opacity: 1;
+}
